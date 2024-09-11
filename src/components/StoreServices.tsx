@@ -6,7 +6,7 @@ import { BoxText } from "./BoxText"
 export const StoreServices = () => {
     return (
         <>
-            <div className=" max-w-[1080px] w-full m-auto">
+            <div className=" max-w-[1220px] w-full m-auto">
 
                 <div className="flex flex-col text-textPrimary gap-6 items-center mt-28">
                     <span className="text-sm font-light">GANHE CASHBACKS COM</span>

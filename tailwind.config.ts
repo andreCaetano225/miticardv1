@@ -14,6 +14,7 @@ const config: Config = {
         textPrimary: "#0C92D2",
         bgButton: "#C80A72",
         background: "#ECF0F3",
+        titleBoxTow: "#01608F",
       },
     },
   },
