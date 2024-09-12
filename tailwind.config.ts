@@ -15,6 +15,7 @@ const config: Config = {
         bgButton: "#C80A72",
         background: "#ECF0F3",
         titleBoxTow: "#01608F",
+        hoverHeader: "#BFD4DE",
       },
     },
   },
