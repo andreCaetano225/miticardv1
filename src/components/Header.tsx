@@ -46,7 +46,7 @@ export const Header = () => {
                 </div>
             </header>
 
-            <div className="pt-[80px]">
+            <div className="pt-[140px]">
                 <Image src={Banner01} alt="Banner" className='w-full' />
             </div>
         </>

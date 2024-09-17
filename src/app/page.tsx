@@ -1,7 +1,11 @@
 import { About } from "@/components/About";
 import { BoxContent } from "@/components/BoxContent";
+import { Carrour } from "@/components/Carrou";
+import { Contact } from "@/components/Contact";
+import { Fotter } from "@/components/Fotter";
 import { Header } from "@/components/Header";
 import { MitiVans } from "@/components/MitiVans";
+import { Plans } from "@/components/Plan";
 import { Services } from "@/components/Services";
 import { StoreServices } from "@/components/StoreServices";
 
@@ -32,6 +36,10 @@ export default function Home() {
         textbox3="Sua rede também poderá indicar"
 
       />
+      <Plans />
+      <Carrour />
+      <Contact />
+      <Fotter />
     </>
   );
 }
