@@ -1,19 +1,30 @@
-import { BoxTextTwo } from "./BoxText"
+'use client'
 
+import { BoxTextTwo } from "./BoxText"
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 
 export const MitiVans = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 800 });
+    }, []);
+
+
+
     return (
         <>
-            <div className=" max-w-[1220px] w-full m-auto">
+            <div className="  md:max-w-[1220px] lg:max-w-[1220px] xl:max-w-[1220px] 2xl:max-w-[1220px] w-full m-auto mt-20">
 
-                <div className="flex flex-col text-textPrimary gap-6">
+                <div className="flex flex-col items-center md:items-start lg:items-start xl:items-start 2xl:items-start text-textPrimary gap-6" data-aos="fade-down">
                     <span className="text-sm font-light">VANTAGENS DE SER</span>
                     <span className="text-6xl font-bold">Mìti</span>
                 </div>
 
-                <div className="grid grid-cols-3 gap-10 mt-20">
+                <div data-aos="fade-right" className="flex items-center flex-col md:grid lg:grid xl:grid 2xl:grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3  xl:grid-cols-3  2xl:grid-cols-3 gap-10 mt-20">
                     <BoxTextTwo title="SEM CARÊNCIA" text="O Mìticard é um plano que não possui carência, permitindo que você aproveite
                     todos os seus benefícios e serviços
                     imediatamente após a contratação. Desfrute de cobertura completa desde o primeiro dia!"/>

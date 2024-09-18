@@ -8,9 +8,19 @@ import { SampleNextArrow } from "./NextArrow";
 import { SamplePrevArrow } from "./PrevArrow";
 import { BoxCarrou } from "./BoxArrow";
 
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 export const Carrour = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 800 });
+    }, []);
+
+
     return (
-        <div className="mt-20">
+        <div className="mt-20" data-aos="fade-down">
             <div className="flex flex-col items-center text-textPrimary gap-6">
                 <span className="text-sm font-light">RELATOS DE CLIENTES</span>
                 <span className="text-6xl font-bold">FeedBack</span>

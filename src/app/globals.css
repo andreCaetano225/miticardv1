@@ -1,45 +1,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .slick-arrow.slick-next,
-.slick-arrow.slick-prev{
-background-color: #428cff;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-opacity: 0.8;
-height:50px;
-width:50px;
-margin-top: 50px;
-margin-left: -20px;
-margin-right: -20px;
+.slick-arrow.slick-prev {
+  background-color: #428cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.8;
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: -20px;
+  margin-right: -20px;
+  transition: all 0.3s ease;
 }
 
 .slick-arrow.slick-next:hover,
-.slick-arrow.slick-prev:hover
-{
-    background-color: #2574f5;
-    opacity:1;
+.slick-arrow.slick-prev:hover {
+  background-color: #2574f5;
+  opacity: 1;
 }
 
-
-.slick-prev::before,.slick-next::before{
-   display:none;
-    
-    }
-
-.arrows{
-height:20px;
-width:20px;
-margin: 1px;
-
+.slick-prev::before,
+.slick-next::before {
+  display: none;
 }
 
-
+.arrows {
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ECF0F3;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .arrows {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .arrows {
+    height: 12px;
+    width: 12px;
+  }
+}

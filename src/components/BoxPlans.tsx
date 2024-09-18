@@ -12,7 +12,7 @@ interface BoxPlansProps {
 export const BoxPlans = ({ price, pricex, subtitle, title }: BoxPlansProps) => {
     return (
         <>
-            <div className="w-[370px] h-[420px] shadow-xl  flex flex-col gap-10 items-center  justify-center rounded-md font-bold  mt-16">
+            <div className="w-[370px] h-[420px] shadow-2xl bg-[#f4f2f2]  flex flex-col gap-10 items-center  justify-center rounded-md font-bold  mt-16">
 
                 <div className="flex flex-col items-center mt-8 gap-2">
                     <span className="text-4xl text-textPrimary font-bold uppercase">{title}</span>
