@@ -4,6 +4,7 @@ import { Carrour } from "@/components/Carrou";
 import { Contact } from "@/components/Contact";
 import { Fotter } from "@/components/Fotter";
 import { Header } from "@/components/Header";
+import { HomeMedic } from "@/components/HomeMedic";
 import { MitiVans } from "@/components/MitiVans";
 import { Plans } from "@/components/Plan";
 import { Services } from "@/components/Services";
@@ -17,6 +18,7 @@ export default function Home() {
       <StoreServices />
       <About />
       <MitiVans />
+      <HomeMedic />
       <BoxContent
         img="./cardmiti.jpg"
         subtitle="Como funciona os"
@@ -34,7 +36,6 @@ export default function Home() {
         textbox1="Você ganha saldo de forma passiva"
         textbox2="Você pode indicar quantas pessoas quiser"
         textbox3="Sua rede também poderá indicar"
-
       />
       <Plans />
       <Carrour />
