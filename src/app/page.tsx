@@ -3,7 +3,6 @@ import { BoxContent } from "@/components/BoxContent";
 import { Carrour } from "@/components/Carrou";
 import { Contact } from "@/components/Contact";
 import { Fotter } from "@/components/Fotter";
-import { Header } from "@/components/Header";
 import { HomeMedic } from "@/components/HomeMedic";
 import { MitiVans } from "@/components/MitiVans";
 import { Plans } from "@/components/Plan";
