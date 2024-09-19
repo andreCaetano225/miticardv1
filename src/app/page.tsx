@@ -15,10 +15,11 @@ import Banner01 from '../assets/bannerhome.png';
 export default function Home() {
   return (
     <>
-      <div className=" pt-[80px] lg:pt-[140px] xl:pt-[140px] 2xl:pt-[140px]">
+      <div className=" pt-[80px] lg:pt-[140px] xl:pt-[140px] 2xl:pt-[140px]" >
         <Image src={Banner01} alt="Banner" className='w-full' />
       </div>
       <Services />
+
       <StoreServices />
       <About />
       <MitiVans />

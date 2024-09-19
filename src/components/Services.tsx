@@ -14,7 +14,7 @@ export const Services = () => {
 
 
     return (
-        <div className="  md:max-w-[1220px] lg:max-w-[1220px] xl:max-w-[1220px] 2xl:max-w-[1220px] w-full m-auto mt-20">
+        <div className="  md:max-w-[1220px] lg:max-w-[1220px] xl:max-w-[1220px] 2xl:max-w-[1220px] w-full m-auto mt-20" id="service">
 
             <div className="flex flex-col items-center md:items-start lg:items-start xl:items-start 2xl:items-start text-textPrimary gap-6" data-aos="fade-down">
                 <span className="text-sm font-light">SERVIÇOS NA</span>

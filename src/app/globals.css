@@ -40,6 +40,30 @@ body {
   background-color: #ECF0F3;
 }
 
+#service {
+  scroll-margin-top: 200px;
+}
+
+#planos {
+  scroll-margin-top: 200px;
+  scroll-behavior: smooth;
+
+}
+
+#feedbeck{
+  scroll-margin-top: 200px;
+  scroll-behavior: smooth;
+}
+
+#sup{
+  scroll-margin-top: 200px;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .slick-arrow.slick-next,

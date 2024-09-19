@@ -50,10 +50,23 @@ export const Header = () => {
 
                     <div className="hidden md:flex items-center gap-6">
                         <div className="flex items-center gap-4 group">
-                            <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">COMO FUNCIONA</span>
-                            <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PLANOS</span>
-                            <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">FEEDBACK</span>
-                            <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">SUPORTE</span>
+                            <Link href={'/#service'}>
+                                <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">COMO FUNCIONA</span>
+
+                            </Link>
+                            <Link href={'/#planos'}>
+                                <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PLANOS</span>
+
+                            </Link>
+                            <Link href={'/#feedbeck'}>
+                                <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">FEEDBACK</span>
+
+                            </Link>
+                            <Link href={'/#sup'}>
+                                <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">SUPORTE</span>
+
+                            </Link>
+
                             <Link href="/parceiros">
                                 <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PARCEIROS</span>
 

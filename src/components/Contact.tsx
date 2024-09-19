@@ -16,10 +16,10 @@ export const Contact = () => {
 
 
     return (
-        <div data-aos="fade-down">
+        <div data-aos="fade-down" >
             <div className=" mt-20">
 
-                <div className="flex flex-col items-center text-textPrimary gap-6">
+                <div className="flex flex-col items-center text-textPrimary gap-6" id="sup">
                     <span className="text-sm font-light">ENTRE EM </span>
                     <span className="text-6xl font-bold">Contato</span>
                 </div>
