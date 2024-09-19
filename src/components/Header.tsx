@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';  // Importando ícones de hambúrguer e fechar
 import Logo from '../assets/logomiti.png';
-import Banner01 from '../assets/bannerhome.png';
 import Link from "next/link";
 
 export const Header = () => {
@@ -55,7 +54,10 @@ export const Header = () => {
                             <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PLANOS</span>
                             <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">FEEDBACK</span>
                             <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">SUPORTE</span>
-                            <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PARCEIROS</span>
+                            <Link href="/parceiros">
+                                <span className="nav-item text-titleBoxTow transition-colors duration-300 group-hover:text-hoverHeader group-hover:hover:text-titleBoxTow cursor-pointer font-semibold text-[13px]">PARCEIROS</span>
+
+                            </Link>
                         </div>
 
                         <button className="p-3 px-6 rounded-md text-white flex items-center bg-bgButton transition transform hover:-translate-y-1 hover:shadow-lg">
@@ -78,7 +80,10 @@ export const Header = () => {
                         <span className="nav-item text-titleBoxTow transition-colors duration-300 cursor-pointer font-semibold text-[13px]">PLANOS</span>
                         <span className="nav-item text-titleBoxTow transition-colors duration-300 cursor-pointer font-semibold text-[13px]">FEEDBACK</span>
                         <span className="nav-item text-titleBoxTow transition-colors duration-300 cursor-pointer font-semibold text-[13px]">SUPORTE</span>
-                        <span className="nav-item text-titleBoxTow transition-colors duration-300 cursor-pointer font-semibold text-[13px]">PARCEIROS</span>
+                        <Link href="/parceiros">
+                            <span className="nav-item text-titleBoxTow transition-colors duration-300 cursor-pointer font-semibold text-[13px]">PARCEIROS</span>
+
+                        </Link>
                         <button className="p-3 px-6 rounded-md text-white bg-bgButton transition transform hover:-translate-y-1 hover:shadow-lg">
                             ENTRAR
                         </button>
@@ -86,9 +91,7 @@ export const Header = () => {
                 </div>
             </header>
 
-            <div className=" pt-[80px] lg:pt-[140px] xl:pt-[140px] 2xl:pt-[140px]">
-                <Image src={Banner01} alt="Banner" className='w-full' />
-            </div>
+
         </>
     );
 };

@@ -9,11 +9,16 @@ import { MitiVans } from "@/components/MitiVans";
 import { Plans } from "@/components/Plan";
 import { Services } from "@/components/Services";
 import { StoreServices } from "@/components/StoreServices";
+import Image from "next/image";
+import Banner01 from '../assets/bannerhome.png';
+
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <div className=" pt-[80px] lg:pt-[140px] xl:pt-[140px] 2xl:pt-[140px]">
+        <Image src={Banner01} alt="Banner" className='w-full' />
+      </div>
       <Services />
       <StoreServices />
       <About />
