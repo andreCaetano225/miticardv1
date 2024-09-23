@@ -219,6 +219,12 @@ export default function Parceiros() {
                             textbox1="R. Profa. Maria Nilde Couto Bem, 220 - Office Cariri Sala 705, 7° Andar, Juazeiro do Norte - CE"
                         />
 
+                        <BoxParceiros
+                            title="Centro medico família"
+                            img="/pf.png"
+                        // textbox1="R. Profa. Maria Nilde Couto Bem, 220 - Office Cariri Sala 705, 7° Andar, Juazeiro do Norte - CE"
+                        />
+
 
                     </div>
 
